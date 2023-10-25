@@ -7,4 +7,7 @@ require (
 	github.com/jackpal/go-nat-pmp v1.0.2
 )
 
-require golang.org/x/net v0.8.0 // indirect
+require (
+	github.com/umputun/go-flags v1.5.1 // indirect
+	golang.org/x/net v0.8.0 // indirect
+)

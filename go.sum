@@ -2,5 +2,7 @@ github.com/jackpal/gateway v1.0.10 h1:7g3fDo4Cd3RnTu6PzAfw6poO4Y81uNxrxFQFsBFSzJ
 github.com/jackpal/gateway v1.0.10/go.mod h1:+uPBgIllrbkwYCAoDkGSZbjvpre/bGYAFCYIcrH+LHs=
 github.com/jackpal/go-nat-pmp v1.0.2 h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=
 github.com/jackpal/go-nat-pmp v1.0.2/go.mod h1:QPH045xvCAeXUZOxsnwmrtiCoxIr9eob+4orBN1SBKc=
+github.com/umputun/go-flags v1.5.1 h1:vRauoXV3Ultt1HrxivSxowbintgZLJE+EcBy5ta3/mY=
+github.com/umputun/go-flags v1.5.1/go.mod h1:nTbvsO/hKqe7Utri/NoyN18GR3+EWf+9RrmsdwdhrEc=
 golang.org/x/net v0.8.0 h1:Zrh2ngAOFYneWTAIAPethzeaQLuHwhuBkuV6ZiRnUaQ=
 golang.org/x/net v0.8.0/go.mod h1:QVkue5JL9kW//ek3r6jTKnTFis1tRmNAW2P1shuFdJc=
