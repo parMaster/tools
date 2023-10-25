@@ -1,3 +1,17 @@
+
+## Building, installing
+Build the binaries:
+>make build
+
+Build the binaries and installs them to $GOPATH/bin:
+
+>make install
+
+Uninstall the binaries:
+>make uninstall
+
+# Tools
+
 ## myip
 
 Prints the external IP address of the router. Note, that it can take up to 128 seconds to return a result. Can be used in a pipe:
