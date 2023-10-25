@@ -17,7 +17,7 @@ import (
 )
 
 var Options struct {
-	Proto        string `long:"proto" short:"p" env:"PROTO" default:"tcp" description:"protocol to use (tcp, udp)"`
+	Proto        string `long:"proto" short:"p" env:"PROTO" default:"tcp" choice:"tcp" choice:"udp" description:"protocol to use (tcp, udp)"`
 	InternalPort int    `long:"internal" short:"i" env:"INTERNAL" description:"internal port to map"`
 	ExternalPort int    `long:"external" short:"e" env:"EXTERNAL" description:"external port to map"`
 	Lifetime     int    `long:"lifetime" short:"l" env:"LIFETIME" default:"3600" description:"lifetime of the mapping in seconds"`
