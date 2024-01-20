@@ -18,6 +18,8 @@ Prints the external IP address of the router. Note, that it can take up to 128 s
 
 >myip | xargs ping
 
+In my network, WhatIsMyIp shows wrong IP address, this tool shows the correct one.
+
 ## portmap
 
 Maps an external port to an internal port on the router using NAT-PMP.

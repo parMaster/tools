@@ -13,7 +13,7 @@ import (
 
 	"github.com/jackpal/gateway"
 	natpmp "github.com/jackpal/go-nat-pmp"
-	"github.com/umputun/go-flags"
+	"github.com/jessevdk/go-flags"
 )
 
 var Options struct {
