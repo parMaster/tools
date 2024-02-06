@@ -1,4 +1,3 @@
-
 ## Building, installing
 Build the binaries:
 >make build
@@ -13,10 +12,15 @@ Uninstall the binaries:
 # Tools
 
 ## myip
+Prints the external IP address of the router. Note, that it can take up to 128 seconds to return a result. 
 
-Prints the external IP address of the router. Note, that it can take up to 128 seconds to return a result. Can be used in a pipe:
+Can be used in a pipe:
 
 >myip | xargs ping
+
+or
+
+>ping ${myip}
 
 In my network, WhatIsMyIp shows wrong IP address, this tool shows the correct one.
 
